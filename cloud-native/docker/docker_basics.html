@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>【Docker基础】 | Hi Gopher</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/tech-docs/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
+    <script language="javascript" type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="/tech-docs/js/MouseClickEffect.js"></script>
+    <meta name="description" content="keep up the good work">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/tech-docs/assets/css/0.styles.5e647402.css" as="style"><link rel="preload" href="/tech-docs/assets/js/app.9ff6b09b.js" as="script"><link rel="preload" href="/tech-docs/assets/js/3.b3c7cbef.js" as="script"><link rel="preload" href="/tech-docs/assets/js/1.6fc172ed.js" as="script"><link rel="preload" href="/tech-docs/assets/js/16.23d9a5fb.js" as="script"><link rel="preload" href="/tech-docs/assets/js/12.341bf5d4.js" as="script"><link rel="prefetch" href="/tech-docs/assets/js/10.507ecdd7.js"><link rel="prefetch" href="/tech-docs/assets/js/11.54689a3b.js"><link rel="prefetch" href="/tech-docs/assets/js/13.01360c7d.js"><link rel="prefetch" href="/tech-docs/assets/js/14.8fe831d4.js"><link rel="prefetch" href="/tech-docs/assets/js/15.2345da93.js"><link rel="prefetch" href="/tech-docs/assets/js/17.0cd6be9a.js"><link rel="prefetch" href="/tech-docs/assets/js/4.ba68e02b.js"><link rel="prefetch" href="/tech-docs/assets/js/5.f1d4b2e7.js"><link rel="prefetch" href="/tech-docs/assets/js/6.3ce1963f.js"><link rel="prefetch" href="/tech-docs/assets/js/7.01f549f7.js"><link rel="prefetch" href="/tech-docs/assets/js/8.1deefecf.js"><link rel="prefetch" href="/tech-docs/assets/js/9.67de81f8.js">
+    <link rel="stylesheet" href="/tech-docs/assets/css/0.styles.5e647402.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-9f1e2f90 data-v-001aad25><div data-v-9f1e2f90><div id="loader-wrapper" class="loading-wrapper" data-v-d48f4d20 data-v-9f1e2f90 data-v-9f1e2f90><div class="loader-main" data-v-d48f4d20><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div><div data-v-d48f4d20></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-58d5ab76 data-v-9f1e2f90 data-v-9f1e2f90><h3 class="title" style="display:none;" data-v-58d5ab76 data-v-58d5ab76>Hi Gopher</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><input type="password" value="" data-v-58d5ab76> <span data-v-58d5ab76>Konck! Knock!</span> <button data-v-58d5ab76>OK</button></label> <div class="footer" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><span data-v-58d5ab76><i class="iconfont reco-theme" data-v-58d5ab76></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-58d5ab76>vuePress-theme-reco</a></span> <span data-v-58d5ab76><i class="iconfont reco-copyright" data-v-58d5ab76></i> <a data-v-58d5ab76><span data-v-58d5ab76>sunyh</span>
+            
+          <span data-v-58d5ab76>2019 - </span>
+          2020
+        </a></span></div></div> <div class="hide" data-v-9f1e2f90><header class="navbar" data-v-9f1e2f90><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/tech-docs/" class="home-link router-link-active"><img src="/tech-docs/goo.png" alt="Hi Gopher" class="logo"> <span class="site-name">Hi Gopher</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/tech-docs/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tech-docs/categories/DevOps/" class="nav-link"><i class="iconfont undefined"></i>
+  DevOps
+</a></li><li class="dropdown-item"><!----> <a href="/tech-docs/categories/Argo/" class="nav-link"><i class="iconfont undefined"></i>
+  Argo
+</a></li><li class="dropdown-item"><!----> <a href="/tech-docs/categories/Docker/" class="nav-link"><i class="iconfont undefined"></i>
+  Docker
+</a></li></ul></div></div><div class="nav-item"><a href="/tech-docs/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/tech-docs/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tech-docs/cloud-native/docker/.html" class="nav-link"><i class="iconfont reco-github"></i>
+  GitHub
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-9f1e2f90></div> <aside class="sidebar" data-v-9f1e2f90><div class="personal-info-wrapper" data-v-3eba7259 data-v-9f1e2f90><img src="/tech-docs/gooo.png" alt="author-avatar" class="personal-img" data-v-3eba7259> <h3 class="name" data-v-3eba7259>
+    sunyh
+  </h3> <div class="num" data-v-3eba7259><div data-v-3eba7259><h3 data-v-3eba7259>3</h3> <h6 data-v-3eba7259>Article</h6></div> <div data-v-3eba7259><h3 data-v-3eba7259>4</h3> <h6 data-v-3eba7259>Tag</h6></div></div> <hr data-v-3eba7259></div> <nav class="nav-links"><div class="nav-item"><a href="/tech-docs/" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      Category
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tech-docs/categories/DevOps/" class="nav-link"><i class="iconfont undefined"></i>
+  DevOps
+</a></li><li class="dropdown-item"><!----> <a href="/tech-docs/categories/Argo/" class="nav-link"><i class="iconfont undefined"></i>
+  Argo
+</a></li><li class="dropdown-item"><!----> <a href="/tech-docs/categories/Docker/" class="nav-link"><i class="iconfont undefined"></i>
+  Docker
+</a></li></ul></div></div><div class="nav-item"><a href="/tech-docs/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div><div class="nav-item"><a href="/tech-docs/timeline/" class="nav-link"><i class="iconfont reco-date"></i>
+  TimeLine
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      Contact
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/tech-docs/cloud-native/docker/.html" class="nav-link"><i class="iconfont reco-github"></i>
+  GitHub
+</a></li></ul></div></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>docker</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/tech-docs/cloud-native/docker/docker_basics.html" aria-current="page" class="active sidebar-link">【Docker基础】</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-58d5ab76 data-v-9f1e2f90><h3 class="title" style="display:none;" data-v-58d5ab76 data-v-58d5ab76>【Docker基础】</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><input type="password" value="" data-v-58d5ab76> <span data-v-58d5ab76>Konck! Knock!</span> <button data-v-58d5ab76>OK</button></label> <div class="footer" style="display:none;" data-v-58d5ab76 data-v-58d5ab76><span data-v-58d5ab76><i class="iconfont reco-theme" data-v-58d5ab76></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-58d5ab76>vuePress-theme-reco</a></span> <span data-v-58d5ab76><i class="iconfont reco-copyright" data-v-58d5ab76></i> <a data-v-58d5ab76><span data-v-58d5ab76>sunyh</span>
+            
+          <span data-v-58d5ab76>2019 - </span>
+          2020
+        </a></span></div></div> <div data-v-9f1e2f90><div class="add-head-con" style="background-image:url(https://w.wallhaven.cc/full/zx/wallhaven-zx5oey.png);" data-v-9f1e2f90 data-v-001aad25></div> <main class="page" data-v-001aad25><div class="page-title" style="display:none;"><h1 class="title">【Docker基础】</h1> <div data-v-4fb00b06><i class="iconfont reco-account" data-v-4fb00b06><span data-v-4fb00b06>sunyh</span></i> <i class="iconfont reco-date" data-v-4fb00b06><span data-v-4fb00b06>2020-11-28</span></i> <!----> <i class="iconfont reco-tag tags" data-v-4fb00b06><span class="tag-item" data-v-4fb00b06>Docker</span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><div id="boxx" data-v-f4ca0dac><div data-v-f4ca0dac><p v-if="true" class="custom-block-title" data-v-f4ca0dac></p> <p v-if="true" data-v-f4ca0dac></p></div></div> <h2 id="下载安装"><a href="#下载安装" class="header-anchor">#</a> 下载安装</h2> <blockquote><p>Environment: Ubuntu18.04</p> <p>Reference: https://docs.docker.com/engine/install/ubuntu/</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 卸载 docker</span>
+<span class="token function">sudo</span> <span class="token function">apt-get</span> remove docker docker-engine docker.io containerd runc
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">apt-get</span> update
+
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> <span class="token punctuation">\</span>
+    apt-transport-https <span class="token punctuation">\</span>
+    ca-certificates <span class="token punctuation">\</span>
+    <span class="token function">curl</span> <span class="token punctuation">\</span>
+    gnupg-agent <span class="token punctuation">\</span>
+    software-properties-common
+    
+<span class="token function">curl</span> -fsSL https://download.docker.com/linux/ubuntu/gpg <span class="token operator">|</span> <span class="token function">sudo</span> apt-key <span class="token function">add</span> -
+
+<span class="token function">sudo</span> add-apt-repository <span class="token string">&quot;deb [arch=amd64]  https://download.docker.com/linux/ubuntu <span class="token variable"><span class="token variable">$(</span>lsb_release -cs<span class="token variable">)</span></span> stable&quot;</span> 
+
+<span class="token comment"># docker version list</span>
+<span class="token function">apt-cache</span> madison docker-ce
+<span class="token function">apt-cache</span> madison docker-ce-cli
+
+<span class="token comment"># install</span>
+<span class="token function">sudo</span> <span class="token function">apt-get</span> update
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> docker-ce docker-ce-cli containerd.io
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 安装指定版本</span>
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> docker-ce<span class="token operator">=</span><span class="token number">5</span>:18.09.9~3-0~ubuntu-bionic docker-ce-cli<span class="token operator">=</span><span class="token number">5</span>:18.09.9~3-0~ubuntu-bionic containerd.io
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 设置 daemon.json</span>
+<span class="token function">sudo</span> <span class="token function">tee</span> /etc/docker/daemon.json <span class="token operator">&lt;&lt;-</span><span class="token string">'EOF'
+{
+  &quot;registry-mirrors&quot;: [&quot;https://registry.docker-cn.com&quot;]
+}
+EOF</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># reboot docker</span>
+<span class="token function">sudo</span> systemctl daemon-reload
+<span class="token function">sudo</span> systemctl restart docker
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># start up automatically on boot up</span>
+<span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> docker <span class="token operator">&amp;&amp;</span> <span class="token function">sudo</span> systemctl start docker
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># docker permission deny</span>
+<span class="token function">sudo</span> <span class="token function">groupadd</span> docker
+<span class="token function">sudo</span> gpasswd -a <span class="token punctuation">[</span>user name<span class="token punctuation">]</span> docker
+<span class="token function">sudo</span> <span class="token function">service</span> docker restart
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="修改存储位置"><a href="#修改存储位置" class="header-anchor">#</a> 修改存储位置</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>// 修改docker默认镜像/容器存储位置
+// Docker默认的镜像和容器存储位置在/var/lib/docke
+
+<span class="token number">1</span><span class="token punctuation">)</span>修改docker.service文件　
+<span class="token builtin class-name">cd</span> /etc/systemd/system/multi-user.target.wants
+<span class="token function">sudo</span> <span class="token function">vim</span> docker.service
+
+// <span class="token assign-left variable">ExecStart</span><span class="token operator">=</span>/usr/bin/dockerd --graph<span class="token operator">=</span>/data/docker --storage-driver<span class="token operator">=</span>overlay
+
+--graph<span class="token operator">=</span>/data/docker：docker新的存储位置
+--storage-driver<span class="token operator">=</span>overlay ： 当前docker所使用的存储驱动
+
+<span class="token number">2</span><span class="token punctuation">)</span> 重启docker　
+<span class="token function">sudo</span> systemctl daemon-reload
+<span class="token function">sudo</span> systemctl restart docker
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br></div></div><h2 id="docker常用操作"><a href="#docker常用操作" class="header-anchor">#</a> Docker常用操作</h2> <div class="language-sh line-numbers-mode"><pre class="language-sh"><code><span class="token comment"># docker --help</span>
+build       Build an image from a Dockerfile
+commit      Create a new image from a container<span class="token string">'s changes
+cp          Copy files/folders between a container and the local filesystem
+create      Create a new container
+diff        Inspect changes to files or directories on a container'</span>s filesystem
+events      Get real <span class="token function">time</span> events from the server
+<span class="token builtin class-name">exec</span>        Run a <span class="token builtin class-name">command</span> <span class="token keyword">in</span> a running container
+<span class="token builtin class-name">export</span>      Export a container's filesystem as a <span class="token function">tar</span> archive
+<span class="token function">history</span>     Show the <span class="token function">history</span> of an image
+images      List images
+<span class="token function">import</span>      Import the contents from a tarball to create a filesystem image
+info        Display system-wide information
+inspect     Return low-level information on Docker objects
+<span class="token function">kill</span>        Kill one or <span class="token function">more</span> running containers
+load        Load an image from a <span class="token function">tar</span> archive or STDIN
+login       Log <span class="token keyword">in</span> to a Docker registry
+<span class="token builtin class-name">logout</span>      Log out from a Docker registry
+logs        Fetch the logs of a container
+pause       Pause all processes within one or <span class="token function">more</span> containers
+port        List port mappings or a specific mapping <span class="token keyword">for</span> the container
+<span class="token function">ps</span>          List containers
+pull        Pull an image or a repository from a registry
+push        Push an image or a repository to a registry
+<span class="token function">rename</span>      Rename a container
+restart     Restart one or <span class="token function">more</span> containers
+<span class="token function">rm</span>          Remove one or <span class="token function">more</span> containers
+rmi         Remove one or <span class="token function">more</span> images
+run         Run a <span class="token builtin class-name">command</span> <span class="token keyword">in</span> a new container
+save        Save one or <span class="token function">more</span> images to a <span class="token function">tar</span> archive <span class="token punctuation">(</span>streamed to STDOUT by default<span class="token punctuation">)</span>
+search      Search the Docker Hub <span class="token keyword">for</span> images
+start       Start one or <span class="token function">more</span> stopped containers
+stats       Display a live stream of container<span class="token punctuation">(</span>s<span class="token punctuation">)</span> resource usage statistics
+stop        Stop one or <span class="token function">more</span> running containers
+tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+<span class="token function">top</span>         Display the running processes of a container
+unpause     Unpause all processes within one or <span class="token function">more</span> containers
+update      Update configuration of one or <span class="token function">more</span> containers
+version     Show the Docker version information
+<span class="token function">wait</span>        Block <span class="token keyword">until</span> one or <span class="token function">more</span> containers stop, <span class="token keyword">then</span> print their <span class="token builtin class-name">exit</span> codes
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br><span class="line-number">36</span><br><span class="line-number">37</span><br><span class="line-number">38</span><br><span class="line-number">39</span><br><span class="line-number">40</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code># docker build --help
+Usage:  docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+
+Run a command in a new container
+
+Options:
+ 	  --add-host list                  Add a custom host-to-IP mapping (host:ip)
+  -d, --detach                         Run container in background and print container ID
+  -e, --env list                       Set environment variables
+      --gpus gpu-request               GPU devices to add to the container ('all' to pass all GPUs)
+      --help                           Print usage
+  -h, --hostname string                Container host name
+  -i, --interactive                    Keep STDIN open even if not attached
+  -m, --memory bytes                   Memory limit
+      --mount mount                    Attach a filesystem mount to the container
+      --name string                    Assign a name to the container
+      --network network                Connect a container to a network
+      --privileged                     Give extended privileges to this container
+  -p, --publish list                   Publish a container's port(s) to the host
+      --rm                             Automatically remove the container when it exits
+      --shm-size bytes                 Size of /dev/shm
+  -t, --tty                            Allocate a pseudo-TTY
+      --ulimit ulimit                  Ulimit options (default [])
+  -u, --user string                    Username or UID (format: &lt;name|uid&gt;[:&lt;group|gid&gt;])
+  -v, --volume list                    Bind mount a volume
+  -w, --workdir string                 Working directory inside the container
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><p>Examples</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># list all containers </span>
+docker container <span class="token function">ls</span> -a / docker <span class="token function">ps</span> -a
+
+<span class="token comment"># list all containers id</span>
+docker container <span class="token function">ls</span> -aq / docker contaier <span class="token function">ls</span> -a <span class="token operator">|</span> <span class="token function">awk</span> <span class="token punctuation">{</span><span class="token string">'print<span class="token variable">$1</span>'</span><span class="token punctuation">}</span>
+
+<span class="token comment"># remove all containers</span>
+docker <span class="token function">rm</span> <span class="token variable"><span class="token variable">$(</span>docker container <span class="token function">ls</span> -aq<span class="token variable">)</span></span>
+
+<span class="token comment"># list all exited containers</span>
+docker container <span class="token function">ls</span> -f <span class="token string">&quot;status=exited&quot;</span>
+
+<span class="token comment"># list all exited containers id</span>
+docker container <span class="token function">ls</span> -f <span class="token string">&quot;status=exited&quot;</span> -q
+docker <span class="token function">ps</span> -a<span class="token operator">|</span><span class="token function">grep</span> Exited<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>}'</span>
+
+<span class="token comment"># remove all exited containers</span>
+docker <span class="token function">rm</span> <span class="token variable"><span class="token variable">$(</span>docker container <span class="token function">ls</span> -f <span class="token string">&quot;status=exited&quot;</span> -q<span class="token variable">)</span></span>
+docker <span class="token function">rm</span> <span class="token variable"><span class="token variable">`</span>docker <span class="token function">ps</span> -a<span class="token operator">|</span><span class="token function">grep</span> Exited<span class="token operator">|</span><span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$1</span>}'</span><span class="token variable">`</span></span>
+docker <span class="token function">rm</span> <span class="token variable"><span class="token variable">$(</span>docker <span class="token function">ps</span> -qf <span class="token assign-left variable">status</span><span class="token operator">=</span>exited<span class="token variable">)</span></span>
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#删除名称或标签为none的镜像</span>
+docker rmi -f  <span class="token variable"><span class="token variable">`</span>docker images <span class="token operator">|</span> <span class="token function">grep</span> <span class="token string">'&lt;none&gt;'</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$3</span>}'</span><span class="token variable">`</span></span>
+<span class="token comment">#删除所有名字中带 “dee” 关键字的镜像</span>
+docker rmi <span class="token variable"><span class="token variable">$(</span>docker images <span class="token operator">|</span> <span class="token function">grep</span> <span class="token string">&quot;dee&quot;</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'{print <span class="token variable">$3</span>}'</span><span class="token variable">)</span></span> 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># docker commit [CONTAINER] [REPOSITORY]</span>
+docker run -d -it --name nginx nginx
+docker commit nginx hisunyh/my-nginx:1.0
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><div class="language-sh line-numbers-mode"><pre class="language-sh"><code>docker run -d -it --name crawler --add-host master.namenode:192.168.1.25 --add-host slave.datanode1:192.168.1.26 --add-host slave.datanode2:192.168.1.29 -e <span class="token string">&quot;queue_names=for_get_tb_detail&quot;</span> dee_crawler:1.0
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>container export/import</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># docker export [OPTIONS] CONTAINER</span>
+<span class="token comment"># [OPTIONS] --output , -o</span>
+
+docker <span class="token builtin class-name">export</span> crawler <span class="token operator">&gt;</span> crawler-export.tar
+<span class="token comment"># or</span>
+docker <span class="token builtin class-name">export</span> --output<span class="token operator">=</span><span class="token string">&quot;crawler-export&quot;</span> crawler
+
+<span class="token comment"># docker import [OPTIONS] file|URL|- [REPOSITORY[:TAG]]</span>
+docker <span class="token function">import</span> crawler-export.tarr dee_crawler_export:1.0
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>image save/load</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># docker save [OPTIONS] IMAGE [IMAGE...]</span>
+<span class="token comment"># [OPTIONS] --output , -o</span>
+
+docker save -o dee_crawler_save.tar dee_crawler:1.0
+<span class="token comment"># or</span>
+docker save dee_crawler:2.0 <span class="token operator">&gt;</span> dee_crawler_save.tar
+
+<span class="token function">scp</span> dee_crawler_save.tar user@host:/tmp/dee_crawler_save.tar
+
+<span class="token comment"># docker load [OPTIONS]</span>
+<span class="token comment"># [OPTIONS] --input , -i</span>
+docker load <span class="token operator">&lt;</span> dee_crawler_save.tar
+docker load --input dee_crawler_save.tar
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br></div></div><h2 id="dockerfile"><a href="#dockerfile" class="header-anchor">#</a> Dockerfile</h2> <blockquote><p>Refenence:</p> <p>https://docs.docker.com/engine/reference/builder/</p> <p>https://docs.docker.com/develop/develop-images/dockerfile_best-practices/</p></blockquote> <p>Samples</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">tee</span> ./Dockerfile.dev <span class="token operator">&lt;&lt;-</span><span class="token string">'EOF'
+FROM golang:1.14-alpine AS prod-build
+ENV GOPROXY https://goproxy.cn,direct
+# ENV GO111MODULE on
+WORKDIR /workspace
+COPY . /workspace
+RUN CGO_ENABLED=0 GOOS=linux go build -o deep_arena .
+
+# FROM scratch AS prod-final
+FROM debian:9.12 AS prod-final
+RUN rm -f /etc/localtime \
+&amp;&amp; ln -sv /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
+&amp;&amp; echo &quot;Asia/Shanghai&quot; &gt; /etc/timezone
+
+COPY --from=prod-build /workspace/deep_arena .
+COPY --from=prod-build /workspace/conf.toml .
+COPY --from=prod-build /workspace/config .
+EXPOSE 8082
+CMD [&quot;/deep_arena&quot;]
+EOF</span>
+
+docker login my-horbor.com
+
+docker build -f ./Dockerfile.dev -t my-horbor.com/deep_arena:dev_v1.0 <span class="token builtin class-name">.</span>
+
+docker push my-horbor.com/deep_arena:dev_v1.0
+docker pull my-horbor.com/deep_arena:dev_v1.0
+
+docker run -d -it -p <span class="token number">9082</span>:8082 --name da -v ~/pod_logs:/pod_logs my-horbor.com/deep_arena:dev_v1.0
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br></div></div></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">11/29/2020, 8:38:23 AM</span></div></footer> <!----> <!----> <!----></main> <!----></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><canvas id="vuepress-canvas-ribbon"></canvas><div id="live2d-widget" class="live2d-widget-container" style="position:fixed;left:65px;bottom:0px;width:135px;height:300px;z-index:99999;opacity:0.8;pointer-events:none;"><canvas id="live2d_canvas" width="135" height="300" class="live2d_canvas" style="position:absolute;left:0px;top:0px;width:135px;height:300px;"></canvas></div><div></div><!----><APlayer audio="" fixed="true" mini="true" autoplay="autoplay" theme="#f9bcdd" loop="loop" order="random" preload="auto" volume="0.1" mutex="true" lrc-type="0" list-folded="true" list-max-height="250" storage-name="vuepress-plugin-meting" id="aplayer-fixed"></APlayer></div></div>
+    <script src="/tech-docs/assets/js/app.9ff6b09b.js" defer></script><script src="/tech-docs/assets/js/3.b3c7cbef.js" defer></script><script src="/tech-docs/assets/js/1.6fc172ed.js" defer></script><script src="/tech-docs/assets/js/16.23d9a5fb.js" defer></script><script src="/tech-docs/assets/js/12.341bf5d4.js" defer></script>
+  </body>
+</html>
