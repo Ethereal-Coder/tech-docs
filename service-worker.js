@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d80a51ea9cde88a6b385cdf69e989e03"
+    "revision": "b8247b0f207d78b1c6dd0e471d5af890"
   },
   {
     "url": "Argo_Workflow.html",
-    "revision": "f45eab3ae5d23887dd4a83b5b9d2f5e2"
+    "revision": "7b399cf73948496c3e2ede145a029b97"
   },
   {
     "url": "assets/css/0.styles.5e647402.css",
@@ -142,48 +142,44 @@ self.__precacheManifest = [
     "revision": "961b813bbaf11eddc98da2e9aa2d4bda"
   },
   {
-    "url": "assets/js/app.9ff6b09b.js",
-    "revision": "21a82e5f88e339ba53a4c559e811526b"
+    "url": "assets/js/app.cf3c5dfd.js",
+    "revision": "1d6989175e074cd1b3bf8626f470da44"
   },
   {
-    "url": "categories/Argo/index.html",
-    "revision": "0517abc10486b8821321f27a4a8a71c4"
-  },
-  {
-    "url": "categories/DevOps/index.html",
-    "revision": "ec7df1c4eda13d155c7a964c3a4167c9"
-  },
-  {
-    "url": "categories/Docker/index.html",
-    "revision": "196be2c61f916e39800781f024c3e2ce"
-  },
-  {
-    "url": "categories/index.html",
-    "revision": "25fde596fe7be0c2d9028d0015f8d726"
-  },
-  {
-    "url": "cloud-native/docker/docker_basics.html",
-    "revision": "0b9ad800b0570e3a6d67c75f5471f893"
-  },
-  {
-    "url": "go.png",
-    "revision": "25b723d25a94b1ee34d7c80cdb313adc"
-  },
-  {
-    "url": "Golang-Advantage.jpg",
-    "revision": "3d7414a878f27daec955387611487052"
-  },
-  {
-    "url": "goo.png",
-    "revision": "a3336b4c3a5e9a1d8e2f32be8dab2db5"
-  },
-  {
-    "url": "gooo.png",
+    "url": "avatar.png",
     "revision": "51760db1844908d4e03806cca519d133"
   },
   {
+    "url": "banner-full-screen.png",
+    "revision": "a6d9776e29d816ef118b924ad261c3d0"
+  },
+  {
+    "url": "banner-normal.png",
+    "revision": "d30bf39a19bf8cbc4d02c48e5045fbf9"
+  },
+  {
+    "url": "categories/Argo/index.html",
+    "revision": "8700f1bdf759ab2f5bd234bf9d458d0a"
+  },
+  {
+    "url": "categories/DevOps/index.html",
+    "revision": "b3d15a8065bdafc9a62f5c1fb93e57d7"
+  },
+  {
+    "url": "categories/Docker/index.html",
+    "revision": "2ebfd75e7d5e284c9813d4d17c6c879c"
+  },
+  {
+    "url": "categories/index.html",
+    "revision": "220c71470cf5cf58bac5f6620bad8aa6"
+  },
+  {
+    "url": "cloud-native/docker/docker_basics.html",
+    "revision": "e6a92d0a42105fa5b5dc341e7d9af947"
+  },
+  {
     "url": "index.html",
-    "revision": "86d66de5491f6b939809538ab89c8b73"
+    "revision": "ccc7ac5848284ca6afaa0a587c883383"
   },
   {
     "url": "js/MouseClickEffect.js",
@@ -194,32 +190,36 @@ self.__precacheManifest = [
     "revision": "56ff69b411abfc80cb68d0b1267959c5"
   },
   {
+    "url": "logo.png",
+    "revision": "a3336b4c3a5e9a1d8e2f32be8dab2db5"
+  },
+  {
     "url": "others/Vuepress_GitHubActions.html",
-    "revision": "725b35b7406b167bddea9b33fbb3ccfd"
+    "revision": "024b3e921eb7f1bb8a6e7165a964b56d"
   },
   {
     "url": "tag/Argo/index.html",
-    "revision": "ed85a47923ae882402ece8bb54a8cab4"
+    "revision": "aaa18ba0a8d219ad4948242108b304ae"
   },
   {
     "url": "tag/Docker/index.html",
-    "revision": "4d26db018977b1a73eba48c798324dbb"
+    "revision": "afe8fa135a7fa4cb83875582aec7bb7d"
   },
   {
     "url": "tag/Github Actions/index.html",
-    "revision": "f7765e33a825362b1793fac33c310fde"
+    "revision": "02a8f5dd8b57a1d0349d02ca57e4960b"
   },
   {
     "url": "tag/index.html",
-    "revision": "e34e055910df5cd598cfe2195f9f0c7f"
+    "revision": "a67f457279b9c29d81f6ae316da0dbc8"
   },
   {
     "url": "tag/VuePress/index.html",
-    "revision": "8de3080033f6ce9520b9e4c2e668dcae"
+    "revision": "378661e61c9e909fc1b6a51694b66289"
   },
   {
     "url": "timeline/index.html",
-    "revision": "b3714740dfbd846c0ff3d0a503711bd2"
+    "revision": "3c87317fbe82249dc5382a3b557822c6"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
